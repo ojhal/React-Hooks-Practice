@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <h1> {count}</h1>
-      <button onClick={IncNum}> Click Me</button>
+      <button className='btn' onClick={IncNum}> Click Me</button>
     </>
   )
 }
